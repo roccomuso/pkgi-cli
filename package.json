@@ -1,0 +1,34 @@
+{
+  "name": "pkgi-cli",
+  "version": "1.0.0",
+  "description": "Interactive pkg from CLI tool",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "pkgi": "./bin/pkgi.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roccomuso/pkgi-cli"
+  },
+  "keywords": [
+    "pkg",
+    "pkgi",
+    "interactive",
+    "cli",
+    "inquirer",
+    "build"
+  ],
+  "author": "Rocco Musolino (@roccomuso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roccomuso/pkgi-cli/issues"
+  },
+  "dependencies": {
+    "pkg": "^4.1.1",
+    "pkgi": "^1.0.0"
+  }
+}
